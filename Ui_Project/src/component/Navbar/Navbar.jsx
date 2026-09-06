@@ -4,11 +4,11 @@ import UserMenu from './UserMenu'
 
 const Navbar = () => {
   return (
-    <div className='flex bg-green-50'>
-        <Logo/>
-        <Navlink/>
-        <UserMenu/>
-    </div>
+    <nav className='flex justify-between items-center p-3 border m-5 rounded-lg'>
+      <Logo/>
+      <Navlink/>
+      <UserMenu/>
+    </nav>
   )
 }
 

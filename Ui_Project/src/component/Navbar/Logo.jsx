@@ -1,10 +1,9 @@
 import React from 'react'
-
+import { Bed } from 'lucide-react';
 const Logo = () => {
   return (
-    <div className=''>
-        <h1 className='text-black-300'>StayNest</h1>
-
+    <div>
+        <h1 className='text-2xl font-bold flex '> <Bed/> StayNest</h1>
     </div>
   )
 }
