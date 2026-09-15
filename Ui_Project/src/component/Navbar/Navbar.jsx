@@ -1,4 +1,4 @@
-import Logo from './logo'
+import Logo from './Logo'
 import Navlink from './Navlink'
 import UserMenu from './UserMenu'
 
