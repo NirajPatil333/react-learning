@@ -16,7 +16,7 @@ const Hero = () => {
           <p className='mt-3 text-lg'>Discover amazing hotels at the best prices</p>
         </div>
       </div>
-        <div className='absolute  left-1/2 -bottom-10 -translate-x-1/2 z-20'>
+        <div className='absolute  left-1/2 -bottom-10 -translate-x-1/2 z-20 '>
           <SearchBox />
         </div>
 
