@@ -24,7 +24,15 @@ const PopularHotel = () => {
             price: "$110/night",
             rating: "4.7",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmIAq8fPqmayjJhWa5nrHCrc3JrnZUHaxMz7PHxzAA3Q&s=10"
+        },
+        {
+            name: "Taj Mahal Palace",
+            location: "Mumbai, India",
+            price: "$180/night",
+            rating: "4.7",
+            image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIx3N4mK3oKlwoUeIsFVrFGvYrOt7dKHAcLi7qsr5oQ&s=10"
         }
+
     ];
 
     return (
@@ -44,6 +52,7 @@ const PopularHotel = () => {
                         price={hotel.price}
                         rating={hotel.rating}
                         image={hotel.image}
+                        amenities = {["Free Wi-Fi", "Pool", "Breakfast"]}
                     />
                 ))}
             </div>
